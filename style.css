@@ -1,0 +1,44 @@
+:root {
+    --primary: #008aaa;
+    --secondary: #d1884f;
+    --tertiary: #3bbadb;
+}
+
+a{
+    text-decoration: none !important;
+}
+.btn-primary{
+    background-color: var(--primary) !important;
+    border: none !important;
+}
+
+.btn-outline-dark{
+    border-color: var(--secondary) !important;
+    color: var(--secondary) !important;
+}
+
+.btn-outline-dark:hover{
+    background-color: var(--secondary) !important;
+    color: #ffffff !important;
+}
+
+.nav-link{
+    font-size: 16px !important;
+    font-weight: 700;
+    color: var(--primary) !important;
+}
+.nav-link:hover{
+
+    color: var(--secondary) !important;
+}
+.badge{
+    background-color: var(--secondary) !important;
+}
+.prgress-bar{
+    background-color: var(--tertiary) !important;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 250px; /* Adjust the height as needed */
+    width: 100%; 
+}
